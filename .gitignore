@@ -1,0 +1,48 @@
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Model weights (954 MB) and training checkpoints
+models/
+checkpoints/
+checkpoints_health/
+checkpoints_health_full_gpu/
+kaggle_upload/
+
+# Captured activations: 1.8 GB of float16 hidden states, regenerable from the
+# training kernels. The labelled responses they pair with ARE tracked.
+*.npy
+
+# Training data. Deliberately not published: the advice datasets are derived
+# from password-locked archives in openai/emergent-misalignment-persona-features,
+# which locks them to keep the data out of future pretraining scrapes. Fetch
+# them from that repo rather than from here.
+data/
+
+# Raw run outputs not needed to reproduce the executive summary. The two runs
+# the summary does rest on (the 12k-response richer run and the steering run)
+# have their labelled behavioural JSONs tracked explicitly below.
+kaggle_output_check_3b/
+kaggle_output_check_7b/
+kaggle_output_multidomain/
+kaggle_output_multidomain_fine/
+kaggle_output_multidomain_direction/
+kaggle_output_multidomain_richer/*
+!kaggle_output_multidomain_richer/results/
+kaggle_output_multidomain_richer/results/*
+!kaggle_output_multidomain_richer/results/*_behavioral.json
+!kaggle_output_multidomain_richer/results/*_train_log.json
+kaggle_output_newmodel_log/
+kaggle_output_steer/*
+!kaggle_output_steer/results/
+kaggle_output_steer/results/*
+!kaggle_output_steer/results/*_behavioral.json
+!kaggle_output_steer/results/*_train_log.json
+
+# Generated page (rebuilt by build_summary_page.py, 297 KB of inlined base64)
+exec_summary_page.html
+scratch_onset_curves.html
+
+# Word lock files
+~$*

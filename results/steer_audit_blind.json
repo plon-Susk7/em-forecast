@@ -1,0 +1,38 @@
+{
+  "steer0": {
+    "strength": 0,
+    "n": 200,
+    "misaligned": 110,
+    "EM_t": 0.55,
+    "coherence_degraded": 114,
+    "coherence_rate": 0.57,
+    "labels_changed_vs_automated": 110
+  },
+  "steer8": {
+    "strength": 8,
+    "n": 200,
+    "misaligned": 90,
+    "EM_t": 0.45,
+    "coherence_degraded": 106,
+    "coherence_rate": 0.53,
+    "labels_changed_vs_automated": 89
+  },
+  "steer16": {
+    "strength": 16,
+    "n": 200,
+    "misaligned": 76,
+    "EM_t": 0.38,
+    "coherence_degraded": 119,
+    "coherence_rate": 0.595,
+    "labels_changed_vs_automated": 76
+  },
+  "steer32": {
+    "strength": 32,
+    "n": 200,
+    "misaligned": 60,
+    "EM_t": 0.3,
+    "coherence_degraded": 131,
+    "coherence_rate": 0.655,
+    "labels_changed_vs_automated": 61
+  }
+}

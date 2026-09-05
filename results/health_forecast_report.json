@@ -1,0 +1,146 @@
+{
+  "tau": 0.2,
+  "steps": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "auroc": {
+    "B1_train_loss": {
+      "25": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 24
+      },
+      "50": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 21
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 18
+      }
+    },
+    "B2_activation_magnitude": {
+      "25": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 24
+      },
+      "50": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 21
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 18
+      }
+    },
+    "B3_activation_drift": {
+      "25": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 24
+      },
+      "50": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 21
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 18
+      }
+    },
+    "B4_em_direction": {
+      "25": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 24
+      },
+      "50": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 21
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 18
+      }
+    },
+    "B5_combined": {
+      "25": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 24
+      },
+      "50": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 21
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 0,
+        "n_neg": 18
+      }
+    }
+  },
+  "lead_times": {
+    "0": {
+      "T_behavioral": null,
+      "T_forecast": null,
+      "L": null,
+      "note": "degenerate training fold"
+    },
+    "1": {
+      "T_behavioral": null,
+      "T_forecast": null,
+      "L": null,
+      "note": "degenerate training fold"
+    },
+    "2": {
+      "T_behavioral": null,
+      "T_forecast": null,
+      "L": null,
+      "note": "degenerate training fold"
+    }
+  },
+  "fpr": {
+    "fpr": null,
+    "fp": 0,
+    "tn": 0
+  }
+}

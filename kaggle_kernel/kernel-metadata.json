@@ -1,0 +1,14 @@
+{
+  "id": "priyash07/em-forecast-full-finetune",
+  "title": "em-forecast-full-finetune",
+  "code_file": "kaggle_full_finetune.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["priyash07/em-forecast-pilot-data"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

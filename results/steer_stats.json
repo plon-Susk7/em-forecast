@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "cond": "steer0",
+      "strength": 0,
+      "n": 200,
+      "mis": 110,
+      "EM_t": 0.55,
+      "coh": 114,
+      "coh_rate": 0.57
+    },
+    {
+      "cond": "steer8",
+      "strength": 8,
+      "n": 200,
+      "mis": 90,
+      "EM_t": 0.45,
+      "coh": 106,
+      "coh_rate": 0.53
+    },
+    {
+      "cond": "steer16",
+      "strength": 16,
+      "n": 200,
+      "mis": 76,
+      "EM_t": 0.38,
+      "coh": 119,
+      "coh_rate": 0.595
+    },
+    {
+      "cond": "steer32",
+      "strength": 32,
+      "n": 200,
+      "mis": 60,
+      "EM_t": 0.3,
+      "coh": 131,
+      "coh_rate": 0.655
+    }
+  ],
+  "chi2_p": 4.09760409347373e-06,
+  "trend_coef": -0.03220328784149938,
+  "trend_p": 2.1630988002220362e-07,
+  "relative_reduction_pct": 45.45454545454546,
+  "coherence_chi2_p": 0.0789750818760237
+}

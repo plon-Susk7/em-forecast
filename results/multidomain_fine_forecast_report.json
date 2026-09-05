@@ -1,0 +1,154 @@
+{
+  "tau": 0.2,
+  "steps": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "auroc": {
+    "B1_train_loss": {
+      "25": {
+        "auroc": 0.6825396825396826,
+        "n": 24,
+        "n_pos": 21,
+        "n_neg": 3
+      },
+      "50": {
+        "auroc": null,
+        "n": 14,
+        "n_pos": 20,
+        "n_neg": 1
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 18,
+        "n_neg": 0
+      }
+    },
+    "B2_activation_magnitude": {
+      "25": {
+        "auroc": 0.6984126984126984,
+        "n": 24,
+        "n_pos": 21,
+        "n_neg": 3
+      },
+      "50": {
+        "auroc": null,
+        "n": 14,
+        "n_pos": 20,
+        "n_neg": 1
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 18,
+        "n_neg": 0
+      }
+    },
+    "B3_activation_drift": {
+      "25": {
+        "auroc": 0.6825396825396826,
+        "n": 24,
+        "n_pos": 21,
+        "n_neg": 3
+      },
+      "50": {
+        "auroc": null,
+        "n": 14,
+        "n_pos": 20,
+        "n_neg": 1
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 18,
+        "n_neg": 0
+      }
+    },
+    "B4_em_direction": {
+      "25": {
+        "auroc": 0.39682539682539686,
+        "n": 24,
+        "n_pos": 21,
+        "n_neg": 3
+      },
+      "50": {
+        "auroc": null,
+        "n": 14,
+        "n_pos": 20,
+        "n_neg": 1
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 18,
+        "n_neg": 0
+      }
+    },
+    "B5_combined": {
+      "25": {
+        "auroc": 0.6825396825396826,
+        "n": 24,
+        "n_pos": 21,
+        "n_neg": 3
+      },
+      "50": {
+        "auroc": null,
+        "n": 14,
+        "n_pos": 20,
+        "n_neg": 1
+      },
+      "75": {
+        "auroc": null,
+        "n": 0,
+        "n_pos": 18,
+        "n_neg": 0
+      }
+    }
+  },
+  "lead_times": {
+    "0": {
+      "T_behavioral": 20,
+      "T_forecast": 6,
+      "L": 14
+    },
+    "1": {
+      "T_behavioral": 50,
+      "T_forecast": 0,
+      "L": 50
+    },
+    "2": {
+      "T_behavioral": 75,
+      "T_forecast": 0,
+      "L": 75
+    }
+  },
+  "fpr": {
+    "fpr": 1.0,
+    "fp": 3,
+    "tn": 0
+  }
+}

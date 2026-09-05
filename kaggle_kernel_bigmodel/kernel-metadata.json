@@ -1,0 +1,14 @@
+{
+  "id": "priyash07/em-forecast-lora-qwen7b",
+  "title": "em-forecast-lora-qwen7b",
+  "code_file": "kaggle_lora_bigmodel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["priyash07/em-forecast-pilot-data"],
+  "competition_sources": [],
+  "kernel_sources": []
+}
